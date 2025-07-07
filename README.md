@@ -21,3 +21,17 @@ Este repositorio contiene un dataset curado de vulnerabilidades en proyectos Jav
    ```bash
    git clone https://github.com/FranciscoPintos/java-security-patches-dataset.git
    cd java-security-patches-dataset
+
+
+
+4. Probar localmente
+Activar tu entorno virtual y instala dependencias:
+```bash
+  source venv/bin/activate
+  pip install -r requirements.txt 
+```
+Ejecuta el script:
+```bash
+python scripts/extract_commits.py
+Verifica que se genere data/dataset_inicial.csv y que contenga entradas de commits.
+
