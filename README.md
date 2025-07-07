@@ -19,5 +19,5 @@ Este repositorio contiene un dataset curado de vulnerabilidades en proyectos Jav
 
 1. Clona el repositorio:  
    ```bash
-   git clone https://github.com/tu-usuario/java-security-patches-dataset.git
+   git clone https://github.com/FranciscoPintos/java-security-patches-dataset.git
    cd java-security-patches-dataset
